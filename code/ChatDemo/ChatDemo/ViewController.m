@@ -8,6 +8,9 @@
 #import "ViewController.h"
 
 #import "InputViewController.h"
+#import "ConversationListViewController.h"
+#import "ConversationViewController.h"
+
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -20,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
-    self.dataSource = @[@"输入框"];
+    self.dataSource = @[@"输入框", @"聊天列表", @"聊天页面"];
 }
 
 #pragma mark UITableViewDelegate, UITableViewDataSource
@@ -40,6 +43,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     switch (indexPath.row) {
         case 0:
         {
@@ -47,6 +51,17 @@
             [self.navigationController showViewController:vc sender:nil];
         }
             break;
+        case 1:
+        {
+            ConversationListViewController *vc = [[ConversationListViewController alloc] init];
+            [self.navigationController showViewController:vc sender:nil];
+        }
+            break;
+        case 2:
+        {
+            ConversationViewController *vc = [[ConversationViewController alloc] init];
+            [self.navigationController showViewController:vc sender:nil];
+        }
         default:
             break;
     }

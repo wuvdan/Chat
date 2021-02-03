@@ -1,5 +1,6 @@
 target 'ChatDemo' do
 	
   pod 'Masonry'
+  pod 'SDWebImage'
   
 end 

@@ -20,6 +20,14 @@
 		4308BA5125C900E200497593 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4308BA5025C900E200497593 /* TestView.m */; };
 		4308BA5525C9032E00497593 /* VoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4308BA5425C9032E00497593 /* VoiceView.m */; };
 		4308BA5925C9033800497593 /* EmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4308BA5825C9033800497593 /* EmojiView.m */; };
+		4393097D25CA770700368B71 /* ConversationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4393097C25CA770700368B71 /* ConversationListViewController.m */; };
+		4393098325CA776A00368B71 /* ConversationListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4393098225CA776A00368B71 /* ConversationListCell.m */; };
+		4393099025CA80DA00368B71 /* ConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4393098F25CA80DA00368B71 /* ConversationViewController.m */; };
+		439309A925CA838600368B71 /* ConversationRightTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 439309A825CA838600368B71 /* ConversationRightTextTableViewCell.m */; };
+		43D0205025CA91A100CC8ADF /* ConversationLeftTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D0204F25CA91A100CC8ADF /* ConversationLeftTextTableViewCell.m */; };
+		4847E15725CAE27300B6196A /* YQBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4847E15625CAE27300B6196A /* YQBubbleView.m */; };
+		4847E15D25CAE4E400B6196A /* YQBubbleView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4847E15B25CAE4E400B6196A /* YQBubbleView.bundle */; };
+		4847E18A25CAEF3C00B6196A /* ConversationTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4847E18925CAEF3C00B6196A /* ConversationTimeTableViewCell.m */; };
 		9EB5BCD976E6E42CB638E368 /* libPods-ChatDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A63A9A9238D9894EE1DDACCE /* libPods-ChatDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +59,21 @@
 		4308BA5825C9033800497593 /* EmojiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmojiView.m; sourceTree = "<group>"; };
 		437853AE25C93BA9007946CB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		437853AF25C93BA9007946CB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4393097B25CA770700368B71 /* ConversationListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversationListViewController.h; sourceTree = "<group>"; };
+		4393097C25CA770700368B71 /* ConversationListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConversationListViewController.m; sourceTree = "<group>"; };
+		4393098125CA776A00368B71 /* ConversationListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversationListCell.h; sourceTree = "<group>"; };
+		4393098225CA776A00368B71 /* ConversationListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConversationListCell.m; sourceTree = "<group>"; };
+		4393098E25CA80DA00368B71 /* ConversationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversationViewController.h; sourceTree = "<group>"; };
+		4393098F25CA80DA00368B71 /* ConversationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConversationViewController.m; sourceTree = "<group>"; };
+		439309A725CA838600368B71 /* ConversationRightTextTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversationRightTextTableViewCell.h; sourceTree = "<group>"; };
+		439309A825CA838600368B71 /* ConversationRightTextTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConversationRightTextTableViewCell.m; sourceTree = "<group>"; };
+		43D0204E25CA91A100CC8ADF /* ConversationLeftTextTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversationLeftTextTableViewCell.h; sourceTree = "<group>"; };
+		43D0204F25CA91A100CC8ADF /* ConversationLeftTextTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConversationLeftTextTableViewCell.m; sourceTree = "<group>"; };
+		4847E15525CAE27300B6196A /* YQBubbleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQBubbleView.h; sourceTree = "<group>"; };
+		4847E15625CAE27300B6196A /* YQBubbleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQBubbleView.m; sourceTree = "<group>"; };
+		4847E15B25CAE4E400B6196A /* YQBubbleView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YQBubbleView.bundle; sourceTree = "<group>"; };
+		4847E18825CAEF3C00B6196A /* ConversationTimeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversationTimeTableViewCell.h; sourceTree = "<group>"; };
+		4847E18925CAEF3C00B6196A /* ConversationTimeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConversationTimeTableViewCell.m; sourceTree = "<group>"; };
 		4A19FE3BC0F834FC29DFC872 /* Pods-ChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDemo.debug.xcconfig"; path = "Target Support Files/Pods-ChatDemo/Pods-ChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A63A9A9238D9894EE1DDACCE /* libPods-ChatDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,6 +126,8 @@
 				4308B9FD25C7AB1300497593 /* SceneDelegate.m */,
 				4308B9FF25C7AB1300497593 /* ViewController.h */,
 				4308BA0025C7AB1300497593 /* ViewController.m */,
+				4393099225CA80DE00368B71 /* Demo3 */,
+				4393097F25CA770B00368B71 /* Demo2 */,
 				4308BA1725C7AC1700497593 /* Demo */,
 				4308BA0225C7AB1300497593 /* Main.storyboard */,
 				4308BA0525C7AB1500497593 /* Assets.xcassets */,
@@ -130,6 +155,43 @@
 				4308BA2325C7CE0200497593 /* UIView+YQ.m */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		4393097F25CA770B00368B71 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				4847E15925CAE4E400B6196A /* YQBubbleView */,
+				4393097B25CA770700368B71 /* ConversationListViewController.h */,
+				4393097C25CA770700368B71 /* ConversationListViewController.m */,
+				4393098125CA776A00368B71 /* ConversationListCell.h */,
+				4393098225CA776A00368B71 /* ConversationListCell.m */,
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		4393099225CA80DE00368B71 /* Demo3 */ = {
+			isa = PBXGroup;
+			children = (
+				439309A725CA838600368B71 /* ConversationRightTextTableViewCell.h */,
+				439309A825CA838600368B71 /* ConversationRightTextTableViewCell.m */,
+				43D0204E25CA91A100CC8ADF /* ConversationLeftTextTableViewCell.h */,
+				43D0204F25CA91A100CC8ADF /* ConversationLeftTextTableViewCell.m */,
+				4847E18825CAEF3C00B6196A /* ConversationTimeTableViewCell.h */,
+				4847E18925CAEF3C00B6196A /* ConversationTimeTableViewCell.m */,
+				4393098E25CA80DA00368B71 /* ConversationViewController.h */,
+				4393098F25CA80DA00368B71 /* ConversationViewController.m */,
+			);
+			path = Demo3;
+			sourceTree = "<group>";
+		};
+		4847E15925CAE4E400B6196A /* YQBubbleView */ = {
+			isa = PBXGroup;
+			children = (
+				4847E15525CAE27300B6196A /* YQBubbleView.h */,
+				4847E15625CAE27300B6196A /* YQBubbleView.m */,
+				4847E15B25CAE4E400B6196A /* YQBubbleView.bundle */,
+			);
+			path = YQBubbleView;
 			sourceTree = "<group>";
 		};
 		5AF547932CD1440576BAC24A /* Frameworks */ = {
@@ -199,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4308BA0925C7AB1500497593 /* LaunchScreen.storyboard in Resources */,
+				4847E15D25CAE4E400B6196A /* YQBubbleView.bundle in Resources */,
 				4308BA0625C7AB1500497593 /* Assets.xcassets in Resources */,
 				4308BA0425C7AB1300497593 /* Main.storyboard in Resources */,
 			);
@@ -240,11 +303,18 @@
 				4308BA5525C9032E00497593 /* VoiceView.m in Sources */,
 				4308BA2425C7CE0200497593 /* UIView+YQ.m in Sources */,
 				4308BA0125C7AB1300497593 /* ViewController.m in Sources */,
+				43D0205025CA91A100CC8ADF /* ConversationLeftTextTableViewCell.m in Sources */,
+				4393098325CA776A00368B71 /* ConversationListCell.m in Sources */,
+				4847E18A25CAEF3C00B6196A /* ConversationTimeTableViewCell.m in Sources */,
 				4308B9FB25C7AB1300497593 /* AppDelegate.m in Sources */,
 				4308BA0C25C7AB1500497593 /* main.m in Sources */,
+				4393097D25CA770700368B71 /* ConversationListViewController.m in Sources */,
+				4393099025CA80DA00368B71 /* ConversationViewController.m in Sources */,
+				4847E15725CAE27300B6196A /* YQBubbleView.m in Sources */,
 				4308BA1525C7AC1400497593 /* InputViewController.m in Sources */,
 				4308BA5925C9033800497593 /* EmojiView.m in Sources */,
 				4308B9FE25C7AB1300497593 /* SceneDelegate.m in Sources */,
+				439309A925CA838600368B71 /* ConversationRightTextTableViewCell.m in Sources */,
 				4308BA1B25C7AD3400497593 /* InputToolBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
